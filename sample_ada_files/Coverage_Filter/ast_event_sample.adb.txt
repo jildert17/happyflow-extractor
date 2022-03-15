@@ -1,0 +1,218 @@
+CompilationUnit[1:1-28:18]
+|f_prelude:
+|  AdaNodeList[1:1-1:41]
+|  |  WithClause[1:1-1:21]
+|  |  |f_has_limited:
+|  |  |  LimitedAbsent[1:1-1:1]
+|  |  |f_has_private:
+|  |  |  PrivateAbsent[1:1-1:1]
+|  |  |f_packages:
+|  |  |  NameList[1:6-1:20]
+|  |  |  |  Id[1:6-1:20]: General_Events
+|  |  UsePackageClause[1:22-1:41]
+|  |  |f_packages:
+|  |  |  NameList[1:26-1:40]
+|  |  |  |  Id[1:26-1:40]: General_Events
+|f_body:
+|  LibraryItem[3:1-28:18]
+|  |f_has_private:
+|  |  PrivateAbsent[1:41-1:41]
+|  |f_item:
+|  |  PackageBody[3:1-28:18]
+|  |  |f_package_name:
+|  |  |  DefiningName[3:14-3:26]
+|  |  |  |f_name:
+|  |  |  |  Id[3:14-3:26]: Event_Sample
+|  |  |f_aspects: <null>
+|  |  |f_decls:
+|  |  |  DeclarativePart[3:29-28:1]
+|  |  |  |f_decls:
+|  |  |  |  AdaNodeList[5:4-26:30]
+|  |  |  |  |  ObjectDecl[5:4-5:41]
+|  |  |  |  |  |f_ids:
+|  |  |  |  |  |  DefiningNameList[5:4-5:16]
+|  |  |  |  |  |  |  DefiningName[5:4-5:16]
+|  |  |  |  |  |  |  |f_name:
+|  |  |  |  |  |  |  |  Id[5:4-5:16]: Sample_Event
+|  |  |  |  |  |f_has_aliased:
+|  |  |  |  |  |  AliasedAbsent[5:18-5:18]
+|  |  |  |  |  |f_has_constant:
+|  |  |  |  |  |  ConstantAbsent[5:18-5:18]
+|  |  |  |  |  |f_mode:
+|  |  |  |  |  |  ModeDefault[5:18-5:18]
+|  |  |  |  |  |f_type_expr:
+|  |  |  |  |  |  SubtypeIndication[5:19-5:24]
+|  |  |  |  |  |  |f_has_not_null:
+|  |  |  |  |  |  |  NotNullAbsent[5:18-5:18]
+|  |  |  |  |  |  |f_name:
+|  |  |  |  |  |  |  Id[5:19-5:24]: Event
+|  |  |  |  |  |  |f_constraint: <null>
+|  |  |  |  |  |f_default_expr:
+|  |  |  |  |  |  Id[5:28-5:40]: Create_Event
+|  |  |  |  |  |f_renaming_clause: <null>
+|  |  |  |  |  |f_aspects: <null>
+|  |  |  |  |  SingleTaskDecl[7:4-9:20]
+|  |  |  |  |  |f_task_type:
+|  |  |  |  |  |  SingleTaskTypeDecl[7:9-9:19]
+|  |  |  |  |  |  |f_name:
+|  |  |  |  |  |  |  DefiningName[7:9-7:20]
+|  |  |  |  |  |  |  |f_name:
+|  |  |  |  |  |  |  |  Id[7:9-7:20]: Simple_Task
+|  |  |  |  |  |  |f_discriminants: <null>
+|  |  |  |  |  |  |f_aspects: <null>
+|  |  |  |  |  |  |f_definition:
+|  |  |  |  |  |  |  TaskDef[7:21-9:19]
+|  |  |  |  |  |  |  |f_interfaces:
+|  |  |  |  |  |  |  |  ParentList[7:20-7:20]: <empty list>
+|  |  |  |  |  |  |  |f_public_part:
+|  |  |  |  |  |  |  |  PublicPart[7:23-9:4]
+|  |  |  |  |  |  |  |  |f_decls:
+|  |  |  |  |  |  |  |  |  DeclList[8:7-8:22]
+|  |  |  |  |  |  |  |  |  |  EntryDecl[8:7-8:22]
+|  |  |  |  |  |  |  |  |  |  |f_overriding:
+|  |  |  |  |  |  |  |  |  |  |  OverridingUnspecified[7:23-7:23]
+|  |  |  |  |  |  |  |  |  |  |f_spec:
+|  |  |  |  |  |  |  |  |  |  |  EntrySpec[8:7-8:21]
+|  |  |  |  |  |  |  |  |  |  |  |f_entry_name:
+|  |  |  |  |  |  |  |  |  |  |  |  DefiningName[8:13-8:21]
+|  |  |  |  |  |  |  |  |  |  |  |  |f_name:
+|  |  |  |  |  |  |  |  |  |  |  |  |  Id[8:13-8:21]: Accept_1
+|  |  |  |  |  |  |  |  |  |  |  |f_family_type: <null>
+|  |  |  |  |  |  |  |  |  |  |  |f_entry_params: <null>
+|  |  |  |  |  |  |  |  |  |  |f_aspects: <null>
+|  |  |  |  |  |  |  |f_private_part: <null>
+|  |  |  |  |  |  |  |f_end_name:
+|  |  |  |  |  |  |  |  EndName[9:8-9:19]
+|  |  |  |  |  |  |  |  |f_name:
+|  |  |  |  |  |  |  |  |  Id[9:8-9:19]: Simple_Task
+|  |  |  |  |  TaskBody[11:4-17:20]
+|  |  |  |  |  |f_name:
+|  |  |  |  |  |  DefiningName[11:14-11:25]
+|  |  |  |  |  |  |f_name:
+|  |  |  |  |  |  |  Id[11:14-11:25]: Simple_Task
+|  |  |  |  |  |f_aspects: <null>
+|  |  |  |  |  |f_decls:
+|  |  |  |  |  |  DeclarativePart[12:6-14:4]
+|  |  |  |  |  |  |f_decls:
+|  |  |  |  |  |  |  AdaNodeList[13:7-13:23]
+|  |  |  |  |  |  |  |  ObjectDecl[13:7-13:23]
+|  |  |  |  |  |  |  |  |f_ids:
+|  |  |  |  |  |  |  |  |  DefiningNameList[13:7-13:12]
+|  |  |  |  |  |  |  |  |  |  DefiningName[13:7-13:12]
+|  |  |  |  |  |  |  |  |  |  |f_name:
+|  |  |  |  |  |  |  |  |  |  |  Id[13:7-13:12]: Dummy
+|  |  |  |  |  |  |  |  |f_has_aliased:
+|  |  |  |  |  |  |  |  |  AliasedAbsent[13:14-13:14]
+|  |  |  |  |  |  |  |  |f_has_constant:
+|  |  |  |  |  |  |  |  |  ConstantAbsent[13:14-13:14]
+|  |  |  |  |  |  |  |  |f_mode:
+|  |  |  |  |  |  |  |  |  ModeDefault[13:14-13:14]
+|  |  |  |  |  |  |  |  |f_type_expr:
+|  |  |  |  |  |  |  |  |  SubtypeIndication[13:15-13:22]
+|  |  |  |  |  |  |  |  |  |f_has_not_null:
+|  |  |  |  |  |  |  |  |  |  NotNullAbsent[13:14-13:14]
+|  |  |  |  |  |  |  |  |  |f_name:
+|  |  |  |  |  |  |  |  |  |  Id[13:15-13:22]: Boolean
+|  |  |  |  |  |  |  |  |  |f_constraint: <null>
+|  |  |  |  |  |  |  |  |f_default_expr: <null>
+|  |  |  |  |  |  |  |  |f_renaming_clause: <null>
+|  |  |  |  |  |  |  |  |f_aspects: <null>
+|  |  |  |  |  |f_stmts:
+|  |  |  |  |  |  HandledStmts[14:9-17:4]
+|  |  |  |  |  |  |f_stmts:
+|  |  |  |  |  |  |  StmtList[15:7-16:44]
+|  |  |  |  |  |  |  |  AcceptStmt[15:7-15:23]
+|  |  |  |  |  |  |  |  |f_name:
+|  |  |  |  |  |  |  |  |  Id[15:14-15:22]: Accept_1
+|  |  |  |  |  |  |  |  |f_entry_index_expr: <null>
+|  |  |  |  |  |  |  |  |f_params:
+|  |  |  |  |  |  |  |  |  EntryCompletionFormalParams[15:22-15:22]
+|  |  |  |  |  |  |  |  |  |f_params: <null>
+|  |  |  |  |  |  |  |  AssignStmt[16:7-16:44]
+|  |  |  |  |  |  |  |  |f_dest:
+|  |  |  |  |  |  |  |  |  Id[16:7-16:12]: Dummy
+|  |  |  |  |  |  |  |  |f_expr:
+|  |  |  |  |  |  |  |  |  CallExpr[16:16-16:43]
+|  |  |  |  |  |  |  |  |  |f_name:
+|  |  |  |  |  |  |  |  |  |  Id[16:16-16:28]: WaitForEvent
+|  |  |  |  |  |  |  |  |  |f_suffix:
+|  |  |  |  |  |  |  |  |  |  AssocList[16:30-16:42]
+|  |  |  |  |  |  |  |  |  |  |  ParamAssoc[16:30-16:42]
+|  |  |  |  |  |  |  |  |  |  |  |f_designator: <null>
+|  |  |  |  |  |  |  |  |  |  |  |f_r_expr:
+|  |  |  |  |  |  |  |  |  |  |  |  Id[16:30-16:42]: Sample_Event
+|  |  |  |  |  |  |f_exceptions:
+|  |  |  |  |  |  |  AdaNodeList[16:43-16:43]: <empty list>
+|  |  |  |  |  |f_end_name:
+|  |  |  |  |  |  EndName[17:8-17:19]
+|  |  |  |  |  |  |f_name:
+|  |  |  |  |  |  |  Id[17:8-17:19]: Simple_Task
+|  |  |  |  |  SubpBody[19:4-26:30]
+|  |  |  |  |  |f_overriding:
+|  |  |  |  |  |  OverridingUnspecified[17:20-17:20]
+|  |  |  |  |  |f_subp_spec:
+|  |  |  |  |  |  SubpSpec[19:4-19:35]
+|  |  |  |  |  |  |f_subp_kind:
+|  |  |  |  |  |  |  SubpKindProcedure[19:4-19:13]
+|  |  |  |  |  |  |f_subp_name:
+|  |  |  |  |  |  |  DefiningName[19:14-19:35]
+|  |  |  |  |  |  |  |f_name:
+|  |  |  |  |  |  |  |  Id[19:14-19:35]: Event_Sample_Function
+|  |  |  |  |  |  |f_subp_params: <null>
+|  |  |  |  |  |  |f_subp_returns: <null>
+|  |  |  |  |  |f_aspects: <null>
+|  |  |  |  |  |f_decls:
+|  |  |  |  |  |  DeclarativePart[20:6-21:4]
+|  |  |  |  |  |  |f_decls:
+|  |  |  |  |  |  |  AdaNodeList[20:6-20:6]: <empty list>
+|  |  |  |  |  |f_stmts:
+|  |  |  |  |  |  HandledStmts[21:9-26:4]
+|  |  |  |  |  |  |f_stmts:
+|  |  |  |  |  |  |  StmtList[22:6-25:30]
+|  |  |  |  |  |  |  |  CallStmt[22:6-22:32]
+|  |  |  |  |  |  |  |  |f_call:
+|  |  |  |  |  |  |  |  |  CallExpr[22:6-22:31]
+|  |  |  |  |  |  |  |  |  |f_name:
+|  |  |  |  |  |  |  |  |  |  Id[22:6-22:16]: ResetEvent
+|  |  |  |  |  |  |  |  |  |f_suffix:
+|  |  |  |  |  |  |  |  |  |  AssocList[22:18-22:30]
+|  |  |  |  |  |  |  |  |  |  |  ParamAssoc[22:18-22:30]
+|  |  |  |  |  |  |  |  |  |  |  |f_designator: <null>
+|  |  |  |  |  |  |  |  |  |  |  |f_r_expr:
+|  |  |  |  |  |  |  |  |  |  |  |  Id[22:18-22:30]: Sample_Event
+|  |  |  |  |  |  |  |  CallStmt[23:6-23:27]
+|  |  |  |  |  |  |  |  |f_call:
+|  |  |  |  |  |  |  |  |  DottedName[23:6-23:26]
+|  |  |  |  |  |  |  |  |  |f_prefix:
+|  |  |  |  |  |  |  |  |  |  Id[23:6-23:17]: Simple_Task
+|  |  |  |  |  |  |  |  |  |f_suffix:
+|  |  |  |  |  |  |  |  |  |  Id[23:18-23:26]: Accept_1
+|  |  |  |  |  |  |  |  DelayStmt[24:6-24:16]
+|  |  |  |  |  |  |  |  |f_has_until:
+|  |  |  |  |  |  |  |  |  UntilAbsent[24:11-24:11]
+|  |  |  |  |  |  |  |  |f_expr:
+|  |  |  |  |  |  |  |  |  Real[24:12-24:15]: 1.0
+|  |  |  |  |  |  |  |  CallStmt[25:6-25:30]
+|  |  |  |  |  |  |  |  |f_call:
+|  |  |  |  |  |  |  |  |  CallExpr[25:6-25:29]
+|  |  |  |  |  |  |  |  |  |f_name:
+|  |  |  |  |  |  |  |  |  |  Id[25:6-25:14]: SetEvent
+|  |  |  |  |  |  |  |  |  |f_suffix:
+|  |  |  |  |  |  |  |  |  |  AssocList[25:16-25:28]
+|  |  |  |  |  |  |  |  |  |  |  ParamAssoc[25:16-25:28]
+|  |  |  |  |  |  |  |  |  |  |  |f_designator: <null>
+|  |  |  |  |  |  |  |  |  |  |  |f_r_expr:
+|  |  |  |  |  |  |  |  |  |  |  |  Id[25:16-25:28]: Sample_Event
+|  |  |  |  |  |  |f_exceptions:
+|  |  |  |  |  |  |  AdaNodeList[25:29-25:29]: <empty list>
+|  |  |  |  |  |f_end_name:
+|  |  |  |  |  |  EndName[26:8-26:29]
+|  |  |  |  |  |  |f_name:
+|  |  |  |  |  |  |  Id[26:8-26:29]: Event_Sample_Function
+|  |  |f_stmts: <null>
+|  |  |f_end_name:
+|  |  |  EndName[28:5-28:17]
+|  |  |  |f_name:
+|  |  |  |  Id[28:5-28:17]: Event_Sample
+|f_pragmas:
+|  PragmaNodeList[28:18-28:18]: <empty list>

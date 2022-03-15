@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project name="Ada2Uppaal" xmi:version="2.0" xmlns="adaModel" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<package_body location="if_else_sample.adb:1:1: " name="If_Else_Sample">
+		<subprocedure location="if_else_sample.adb:3:4: " name="If_Condition_Stmt">
+			<statement location="if_else_sample.adb:6:7: " xsi:type="Return"/>
+		</subprocedure>
+		<subprocedure location="if_else_sample.adb:9:4: " name="Elsif_Condition_Stmt">
+			<statement location="if_else_sample.adb:12:7: " xsi:type="Return"/>
+		</subprocedure>
+		<subprocedure location="if_else_sample.adb:15:4: " name="If_Callstmt"/>
+		<subprocedure location="if_else_sample.adb:21:4: " name="Else_Callstmt"/>
+		<subprocedure location="if_else_sample.adb:27:4: " name="Elsif_Callstmt"/>
+		<subprocedure location="if_else_sample.adb:33:4: " name="If_Else_Sample_Function">
+			<statement location="if_else_sample.adb:36:7: " xsi:type="If">
+				<conditions>
+					<statement location="if_else_sample.adb:36:10: " name="If_Condition_Stmt" target_location="if_else_sample.adb:3:4: " xsi:type="Call_statement"/>
+				</conditions>
+				<then>
+					<statement location="if_else_sample.adb:37:10: " name="If_Callstmt" target_location="if_else_sample.adb:15:4: " xsi:type="Call_statement"/>
+				</then>
+				<statement location="if_else_sample.adb:38:7: " xsi:type="Elsif">
+					<conditions>
+						<statement location="if_else_sample.adb:38:13: " name="Elsif_Condition_Stmt" target_location="if_else_sample.adb:9:4: " xsi:type="Call_statement"/>
+					</conditions>
+					<then>
+						<statement location="if_else_sample.adb:39:10: " name="Elsif_Callstmt" target_location="if_else_sample.adb:27:4: " xsi:type="Call_statement"/>
+					</then>
+				</statement>
+				<else>
+					<statement location="if_else_sample.adb:41:10: " name="Else_Callstmt" target_location="if_else_sample.adb:21:4: " xsi:type="Call_statement"/>
+				</else>
+			</statement>
+		</subprocedure>
+	</package_body>
+	<package_body location="case_sample.adb:1:1: " name="Case_Sample">
+		<subprocedure location="case_sample.adb:3:4: " name="Case_Condition_Stmt">
+			<statement location="case_sample.adb:6:7: " xsi:type="Return"/>
+		</subprocedure>
+		<subprocedure location="case_sample.adb:9:4: " name="Case_Stmt_1"/>
+		<subprocedure location="case_sample.adb:15:4: " name="Case_Stmt_2"/>
+		<subprocedure location="case_sample.adb:21:4: " name="Case_Sample_Procedure">
+			<statement location="case_sample.adb:24:7: " xsi:type="Case">
+				<case_expr>
+					<statement location="case_sample.adb:24:12: " name="Case_Condition_Stmt" target_location="case_sample.adb:3:4: " xsi:type="Call_statement"/>
+				</case_expr>
+				<when location="case_sample.adb:25:14: ">
+					<statement location="case_sample.adb:25:27: " name="Case_Stmt_1" target_location="case_sample.adb:9:4: " xsi:type="Call_statement"/>
+				</when>
+				<when location="case_sample.adb:26:18: ">
+					<statement location="case_sample.adb:26:32: " name="Case_Stmt_2" target_location="case_sample.adb:15:4: " xsi:type="Call_statement"/>
+				</when>
+			</statement>
+		</subprocedure>
+	</package_body>
+	<package_body location="task_sample.adb:1:1: " name="Task_Sample">
+		<subprocedure location="task_sample.adb:8:4: " name="Accept_1_Callstmt"/>
+		<subprocedure location="task_sample.adb:14:4: " name="Accept_2_Callstmt"/>
+		<task location="task_sample.adb:20:4: " name="Task_Sample_Body">
+			<statement location="task_sample.adb:23:7: " xsi:type="Loop">
+				<statement location="task_sample.adb:24:10: " xsi:type="Select">
+					<statement location="task_sample.adb:25:13: " xsi:type="Guard">
+						<statement decl_location="task_sample.adb:4:7: " location="task_sample.adb:25:13: " name="Accept_1" xsi:type="Accept">
+							<statement location="task_sample.adb:26:16: " name="Accept_1_Callstmt" target_location="task_sample.adb:8:4: " xsi:type="Call_statement"/>
+						</statement>
+					</statement>
+					<statement location="task_sample.adb:29:13: " xsi:type="Guard">
+						<statement decl_location="task_sample.adb:5:7: " location="task_sample.adb:29:13: " name="Accept_2" xsi:type="Accept"/>
+						<statement location="task_sample.adb:30:13: " name="Accept_2_Callstmt" target_location="task_sample.adb:14:4: " xsi:type="Call_statement"/>
+					</statement>
+					<statement location="task_sample.adb:32:13: " xsi:type="Guard">
+						<statement location="task_sample.adb:32:13: " xsi:type="Delay"/>
+					</statement>
+				</statement>
+			</statement>
+		</task>
+		<subprocedure location="task_sample.adb:37:4: " name="Task_Sample_Subp">
+			<statement location="task_sample.adb:40:24: " name="Accept_1" target_location="task_sample.adb:4:7: " xsi:type="Rendezvous"/>
+		</subprocedure>
+	</package_body>
+	<package_body location="event_sample.adb:3:1: " name="Event_Sample">
+		<statement location="event_sample.adb:5:28: " name="Create_Event" target_location="general_events.ads:11:4: " xsi:type="Call_statement"/>
+		<task location="event_sample.adb:11:4: " name="Simple_Task">
+			<statement decl_location="event_sample.adb:8:7: " location="event_sample.adb:15:7: " name="Accept_1" xsi:type="Accept"/>
+			<statement decl_location="event_sample.adb:5:4: " location="event_sample.adb:16:16: " name="Sample_Event" xsi:type="WaitForEvent"/>
+		</task>
+		<subprocedure location="event_sample.adb:19:4: " name="Event_Sample_Function">
+			<statement decl_location="event_sample.adb:5:4: " location="event_sample.adb:22:6: " name="Sample_Event" xsi:type="ResetEvent"/>
+			<statement location="event_sample.adb:23:18: " name="Accept_1" target_location="event_sample.adb:8:7: " xsi:type="Rendezvous"/>
+			<statement location="event_sample.adb:24:6: " xsi:type="Delay"/>
+			<statement decl_location="event_sample.adb:5:4: " location="event_sample.adb:25:6: " name="Sample_Event" xsi:type="SetEvent"/>
+		</subprocedure>
+	</package_body>
+	<package_body location="mutex_sample.adb:3:1: " name="Mutex_Sample">
+		<statement location="mutex_sample.adb:5:23: " name="Create_Mutex" target_location="eln-mutexes.ads:15:4: " xsi:type="Call_statement"/>
+		<task location="mutex_sample.adb:10:4: " name="Task_Sample1">
+			<statement decl_location="mutex_sample.adb:5:4: " location="mutex_sample.adb:13:7: " name="My_Lock" xsi:type="LockMutex"/>
+			<statement decl_location="mutex_sample.adb:5:4: " location="mutex_sample.adb:14:7: " name="My_Lock" xsi:type="UnlockMutex"/>
+		</task>
+		<task location="mutex_sample.adb:17:4: " name="Task_Sample2">
+			<statement decl_location="mutex_sample.adb:5:4: " location="mutex_sample.adb:20:7: " name="My_Lock" xsi:type="LockMutex"/>
+			<statement decl_location="mutex_sample.adb:5:4: " location="mutex_sample.adb:21:7: " name="My_Lock" xsi:type="UnlockMutex"/>
+		</task>
+	</package_body>
+	<package_body location="call_stmt_sample.adb:1:1: " name="Call_Stmt_Sample">
+		<subprocedure location="call_stmt_sample.adb:3:4: " name="Callee">
+			<statement location="call_stmt_sample.adb:6:7: " xsi:type="Return"/>
+		</subprocedure>
+		<subprocedure location="call_stmt_sample.adb:9:4: " name="Caller">
+			<statement location="call_stmt_sample.adb:13:14: " name="Callee" target_location="call_stmt_sample.adb:3:4: " xsi:type="Call_statement"/>
+		</subprocedure>
+	</package_body>
+</Project>

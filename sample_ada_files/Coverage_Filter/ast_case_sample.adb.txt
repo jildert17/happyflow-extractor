@@ -1,0 +1,171 @@
+CompilationUnit[1:1-30:20]
+|f_prelude:
+|  AdaNodeList[1:1-1:1]: <empty list>
+|f_body:
+|  LibraryItem[1:1-30:20]
+|  |f_has_private:
+|  |  PrivateAbsent[1:1-1:1]
+|  |f_item:
+|  |  PackageBody[1:1-30:20]
+|  |  |f_package_name:
+|  |  |  DefiningName[1:14-1:25]
+|  |  |  |f_name:
+|  |  |  |  Id[1:14-1:25]: Case_Sample
+|  |  |f_aspects: <null>
+|  |  |f_decls:
+|  |  |  DeclarativePart[1:28-30:1]
+|  |  |  |f_decls:
+|  |  |  |  AdaNodeList[3:4-28:30]
+|  |  |  |  |  SubpBody[3:4-7:28]
+|  |  |  |  |  |f_overriding:
+|  |  |  |  |  |  OverridingUnspecified[1:28-1:28]
+|  |  |  |  |  |f_subp_spec:
+|  |  |  |  |  |  SubpSpec[3:4-3:47]
+|  |  |  |  |  |  |f_subp_kind:
+|  |  |  |  |  |  |  SubpKindFunction[3:4-3:12]
+|  |  |  |  |  |  |f_subp_name:
+|  |  |  |  |  |  |  DefiningName[3:13-3:32]
+|  |  |  |  |  |  |  |f_name:
+|  |  |  |  |  |  |  |  Id[3:13-3:32]: Case_Condition_Stmt
+|  |  |  |  |  |  |f_subp_params: <null>
+|  |  |  |  |  |  |f_subp_returns:
+|  |  |  |  |  |  |  SubtypeIndication[3:40-3:47]
+|  |  |  |  |  |  |  |f_has_not_null:
+|  |  |  |  |  |  |  |  NotNullAbsent[3:39-3:39]
+|  |  |  |  |  |  |  |f_name:
+|  |  |  |  |  |  |  |  Id[3:40-3:47]: Boolean
+|  |  |  |  |  |  |  |f_constraint: <null>
+|  |  |  |  |  |f_aspects: <null>
+|  |  |  |  |  |f_decls:
+|  |  |  |  |  |  DeclarativePart[4:6-5:4]
+|  |  |  |  |  |  |f_decls:
+|  |  |  |  |  |  |  AdaNodeList[4:6-4:6]: <empty list>
+|  |  |  |  |  |f_stmts:
+|  |  |  |  |  |  HandledStmts[5:9-7:4]
+|  |  |  |  |  |  |f_stmts:
+|  |  |  |  |  |  |  StmtList[6:7-6:19]
+|  |  |  |  |  |  |  |  ReturnStmt[6:7-6:19]
+|  |  |  |  |  |  |  |  |f_return_expr:
+|  |  |  |  |  |  |  |  |  Id[6:14-6:18]: True
+|  |  |  |  |  |  |f_exceptions:
+|  |  |  |  |  |  |  AdaNodeList[6:18-6:18]: <empty list>
+|  |  |  |  |  |f_end_name:
+|  |  |  |  |  |  EndName[7:8-7:27]
+|  |  |  |  |  |  |f_name:
+|  |  |  |  |  |  |  Id[7:8-7:27]: Case_Condition_Stmt
+|  |  |  |  |  SubpBody[9:4-13:20]
+|  |  |  |  |  |f_overriding:
+|  |  |  |  |  |  OverridingUnspecified[7:28-7:28]
+|  |  |  |  |  |f_subp_spec:
+|  |  |  |  |  |  SubpSpec[9:4-9:25]
+|  |  |  |  |  |  |f_subp_kind:
+|  |  |  |  |  |  |  SubpKindProcedure[9:4-9:13]
+|  |  |  |  |  |  |f_subp_name:
+|  |  |  |  |  |  |  DefiningName[9:14-9:25]
+|  |  |  |  |  |  |  |f_name:
+|  |  |  |  |  |  |  |  Id[9:14-9:25]: Case_Stmt_1
+|  |  |  |  |  |  |f_subp_params: <null>
+|  |  |  |  |  |  |f_subp_returns: <null>
+|  |  |  |  |  |f_aspects: <null>
+|  |  |  |  |  |f_decls:
+|  |  |  |  |  |  DeclarativePart[10:6-11:4]
+|  |  |  |  |  |  |f_decls:
+|  |  |  |  |  |  |  AdaNodeList[10:6-10:6]: <empty list>
+|  |  |  |  |  |f_stmts:
+|  |  |  |  |  |  HandledStmts[11:9-13:4]
+|  |  |  |  |  |  |f_stmts:
+|  |  |  |  |  |  |  StmtList[12:7-12:12]
+|  |  |  |  |  |  |  |  NullStmt[12:7-12:12]
+|  |  |  |  |  |  |f_exceptions:
+|  |  |  |  |  |  |  AdaNodeList[12:11-12:11]: <empty list>
+|  |  |  |  |  |f_end_name:
+|  |  |  |  |  |  EndName[13:8-13:19]
+|  |  |  |  |  |  |f_name:
+|  |  |  |  |  |  |  Id[13:8-13:19]: Case_Stmt_1
+|  |  |  |  |  SubpBody[15:4-19:20]
+|  |  |  |  |  |f_overriding:
+|  |  |  |  |  |  OverridingUnspecified[13:20-13:20]
+|  |  |  |  |  |f_subp_spec:
+|  |  |  |  |  |  SubpSpec[15:4-15:25]
+|  |  |  |  |  |  |f_subp_kind:
+|  |  |  |  |  |  |  SubpKindProcedure[15:4-15:13]
+|  |  |  |  |  |  |f_subp_name:
+|  |  |  |  |  |  |  DefiningName[15:14-15:25]
+|  |  |  |  |  |  |  |f_name:
+|  |  |  |  |  |  |  |  Id[15:14-15:25]: Case_Stmt_2
+|  |  |  |  |  |  |f_subp_params: <null>
+|  |  |  |  |  |  |f_subp_returns: <null>
+|  |  |  |  |  |f_aspects: <null>
+|  |  |  |  |  |f_decls:
+|  |  |  |  |  |  DeclarativePart[16:6-17:4]
+|  |  |  |  |  |  |f_decls:
+|  |  |  |  |  |  |  AdaNodeList[16:6-16:6]: <empty list>
+|  |  |  |  |  |f_stmts:
+|  |  |  |  |  |  HandledStmts[17:9-19:4]
+|  |  |  |  |  |  |f_stmts:
+|  |  |  |  |  |  |  StmtList[18:7-18:12]
+|  |  |  |  |  |  |  |  NullStmt[18:7-18:12]
+|  |  |  |  |  |  |f_exceptions:
+|  |  |  |  |  |  |  AdaNodeList[18:11-18:11]: <empty list>
+|  |  |  |  |  |f_end_name:
+|  |  |  |  |  |  EndName[19:8-19:19]
+|  |  |  |  |  |  |f_name:
+|  |  |  |  |  |  |  Id[19:8-19:19]: Case_Stmt_2
+|  |  |  |  |  SubpBody[21:4-28:30]
+|  |  |  |  |  |f_overriding:
+|  |  |  |  |  |  OverridingUnspecified[19:20-19:20]
+|  |  |  |  |  |f_subp_spec:
+|  |  |  |  |  |  SubpSpec[21:4-21:35]
+|  |  |  |  |  |  |f_subp_kind:
+|  |  |  |  |  |  |  SubpKindProcedure[21:4-21:13]
+|  |  |  |  |  |  |f_subp_name:
+|  |  |  |  |  |  |  DefiningName[21:14-21:35]
+|  |  |  |  |  |  |  |f_name:
+|  |  |  |  |  |  |  |  Id[21:14-21:35]: Case_Sample_Procedure
+|  |  |  |  |  |  |f_subp_params: <null>
+|  |  |  |  |  |  |f_subp_returns: <null>
+|  |  |  |  |  |f_aspects: <null>
+|  |  |  |  |  |f_decls:
+|  |  |  |  |  |  DeclarativePart[22:6-23:4]
+|  |  |  |  |  |  |f_decls:
+|  |  |  |  |  |  |  AdaNodeList[22:6-22:6]: <empty list>
+|  |  |  |  |  |f_stmts:
+|  |  |  |  |  |  HandledStmts[23:9-28:4]
+|  |  |  |  |  |  |f_stmts:
+|  |  |  |  |  |  |  StmtList[24:7-27:16]
+|  |  |  |  |  |  |  |  CaseStmt[24:7-27:16]
+|  |  |  |  |  |  |  |  |f_expr:
+|  |  |  |  |  |  |  |  |  Id[24:12-24:31]: Case_Condition_Stmt
+|  |  |  |  |  |  |  |  |f_alternatives:
+|  |  |  |  |  |  |  |  |  CaseStmtAlternativeList[25:14-26:44]
+|  |  |  |  |  |  |  |  |  |  CaseStmtAlternative[25:14-25:39]
+|  |  |  |  |  |  |  |  |  |  |f_choices:
+|  |  |  |  |  |  |  |  |  |  |  AlternativesList[25:19-25:23]
+|  |  |  |  |  |  |  |  |  |  |  |  Id[25:19-25:23]: True
+|  |  |  |  |  |  |  |  |  |  |f_stmts:
+|  |  |  |  |  |  |  |  |  |  |  StmtList[25:27-25:39]
+|  |  |  |  |  |  |  |  |  |  |  |  CallStmt[25:27-25:39]
+|  |  |  |  |  |  |  |  |  |  |  |  |f_call:
+|  |  |  |  |  |  |  |  |  |  |  |  |  Id[25:27-25:38]: Case_Stmt_1
+|  |  |  |  |  |  |  |  |  |  CaseStmtAlternative[26:18-26:44]
+|  |  |  |  |  |  |  |  |  |  |f_choices:
+|  |  |  |  |  |  |  |  |  |  |  AlternativesList[26:23-26:28]
+|  |  |  |  |  |  |  |  |  |  |  |  Id[26:23-26:28]: False
+|  |  |  |  |  |  |  |  |  |  |f_stmts:
+|  |  |  |  |  |  |  |  |  |  |  StmtList[26:32-26:44]
+|  |  |  |  |  |  |  |  |  |  |  |  CallStmt[26:32-26:44]
+|  |  |  |  |  |  |  |  |  |  |  |  |f_call:
+|  |  |  |  |  |  |  |  |  |  |  |  |  Id[26:32-26:43]: Case_Stmt_2
+|  |  |  |  |  |  |f_exceptions:
+|  |  |  |  |  |  |  AdaNodeList[27:15-27:15]: <empty list>
+|  |  |  |  |  |f_end_name:
+|  |  |  |  |  |  EndName[28:8-28:29]
+|  |  |  |  |  |  |f_name:
+|  |  |  |  |  |  |  Id[28:8-28:29]: Case_Sample_Procedure
+|  |  |f_stmts: <null>
+|  |  |f_end_name:
+|  |  |  EndName[30:5-30:19]
+|  |  |  |f_name:
+|  |  |  |  Id[30:5-30:19]: If_Else_Sample
+|f_pragmas:
+|  PragmaNodeList[30:20-30:20]: <empty list>

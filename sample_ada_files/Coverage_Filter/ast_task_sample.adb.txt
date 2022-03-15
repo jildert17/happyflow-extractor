@@ -1,0 +1,243 @@
+CompilationUnit[1:1-43:17]
+|f_prelude:
+|  AdaNodeList[1:1-1:1]: <empty list>
+|f_body:
+|  LibraryItem[1:1-43:17]
+|  |f_has_private:
+|  |  PrivateAbsent[1:1-1:1]
+|  |f_item:
+|  |  PackageBody[1:1-43:17]
+|  |  |f_package_name:
+|  |  |  DefiningName[1:14-1:25]
+|  |  |  |f_name:
+|  |  |  |  Id[1:14-1:25]: Task_Sample
+|  |  |f_aspects: <null>
+|  |  |f_decls:
+|  |  |  DeclarativePart[1:28-43:1]
+|  |  |  |f_decls:
+|  |  |  |  AdaNodeList[3:4-41:25]
+|  |  |  |  |  SingleTaskDecl[3:4-6:25]
+|  |  |  |  |  |f_task_type:
+|  |  |  |  |  |  SingleTaskTypeDecl[3:9-6:24]
+|  |  |  |  |  |  |f_name:
+|  |  |  |  |  |  |  DefiningName[3:9-3:25]
+|  |  |  |  |  |  |  |f_name:
+|  |  |  |  |  |  |  |  Id[3:9-3:25]: Task_Sample_Body
+|  |  |  |  |  |  |f_discriminants: <null>
+|  |  |  |  |  |  |f_aspects: <null>
+|  |  |  |  |  |  |f_definition:
+|  |  |  |  |  |  |  TaskDef[3:26-6:24]
+|  |  |  |  |  |  |  |f_interfaces:
+|  |  |  |  |  |  |  |  ParentList[3:25-3:25]: <empty list>
+|  |  |  |  |  |  |  |f_public_part:
+|  |  |  |  |  |  |  |  PublicPart[3:28-6:4]
+|  |  |  |  |  |  |  |  |f_decls:
+|  |  |  |  |  |  |  |  |  DeclList[4:7-5:22]
+|  |  |  |  |  |  |  |  |  |  EntryDecl[4:7-4:22]
+|  |  |  |  |  |  |  |  |  |  |f_overriding:
+|  |  |  |  |  |  |  |  |  |  |  OverridingUnspecified[3:28-3:28]
+|  |  |  |  |  |  |  |  |  |  |f_spec:
+|  |  |  |  |  |  |  |  |  |  |  EntrySpec[4:7-4:21]
+|  |  |  |  |  |  |  |  |  |  |  |f_entry_name:
+|  |  |  |  |  |  |  |  |  |  |  |  DefiningName[4:13-4:21]
+|  |  |  |  |  |  |  |  |  |  |  |  |f_name:
+|  |  |  |  |  |  |  |  |  |  |  |  |  Id[4:13-4:21]: Accept_1
+|  |  |  |  |  |  |  |  |  |  |  |f_family_type: <null>
+|  |  |  |  |  |  |  |  |  |  |  |f_entry_params: <null>
+|  |  |  |  |  |  |  |  |  |  |f_aspects: <null>
+|  |  |  |  |  |  |  |  |  |  EntryDecl[5:7-5:22]
+|  |  |  |  |  |  |  |  |  |  |f_overriding:
+|  |  |  |  |  |  |  |  |  |  |  OverridingUnspecified[4:22-4:22]
+|  |  |  |  |  |  |  |  |  |  |f_spec:
+|  |  |  |  |  |  |  |  |  |  |  EntrySpec[5:7-5:21]
+|  |  |  |  |  |  |  |  |  |  |  |f_entry_name:
+|  |  |  |  |  |  |  |  |  |  |  |  DefiningName[5:13-5:21]
+|  |  |  |  |  |  |  |  |  |  |  |  |f_name:
+|  |  |  |  |  |  |  |  |  |  |  |  |  Id[5:13-5:21]: Accept_2
+|  |  |  |  |  |  |  |  |  |  |  |f_family_type: <null>
+|  |  |  |  |  |  |  |  |  |  |  |f_entry_params: <null>
+|  |  |  |  |  |  |  |  |  |  |f_aspects: <null>
+|  |  |  |  |  |  |  |f_private_part: <null>
+|  |  |  |  |  |  |  |f_end_name:
+|  |  |  |  |  |  |  |  EndName[6:8-6:24]
+|  |  |  |  |  |  |  |  |f_name:
+|  |  |  |  |  |  |  |  |  Id[6:8-6:24]: Task_Sample_Body
+|  |  |  |  |  SubpBody[8:4-12:26]
+|  |  |  |  |  |f_overriding:
+|  |  |  |  |  |  OverridingUnspecified[6:25-6:25]
+|  |  |  |  |  |f_subp_spec:
+|  |  |  |  |  |  SubpSpec[8:4-8:31]
+|  |  |  |  |  |  |f_subp_kind:
+|  |  |  |  |  |  |  SubpKindProcedure[8:4-8:13]
+|  |  |  |  |  |  |f_subp_name:
+|  |  |  |  |  |  |  DefiningName[8:14-8:31]
+|  |  |  |  |  |  |  |f_name:
+|  |  |  |  |  |  |  |  Id[8:14-8:31]: Accept_1_Callstmt
+|  |  |  |  |  |  |f_subp_params: <null>
+|  |  |  |  |  |  |f_subp_returns: <null>
+|  |  |  |  |  |f_aspects: <null>
+|  |  |  |  |  |f_decls:
+|  |  |  |  |  |  DeclarativePart[9:6-10:4]
+|  |  |  |  |  |  |f_decls:
+|  |  |  |  |  |  |  AdaNodeList[9:6-9:6]: <empty list>
+|  |  |  |  |  |f_stmts:
+|  |  |  |  |  |  HandledStmts[10:9-12:4]
+|  |  |  |  |  |  |f_stmts:
+|  |  |  |  |  |  |  StmtList[11:7-11:12]
+|  |  |  |  |  |  |  |  NullStmt[11:7-11:12]
+|  |  |  |  |  |  |f_exceptions:
+|  |  |  |  |  |  |  AdaNodeList[11:11-11:11]: <empty list>
+|  |  |  |  |  |f_end_name:
+|  |  |  |  |  |  EndName[12:8-12:25]
+|  |  |  |  |  |  |f_name:
+|  |  |  |  |  |  |  Id[12:8-12:25]: Accept_1_Callstmt
+|  |  |  |  |  SubpBody[14:4-18:26]
+|  |  |  |  |  |f_overriding:
+|  |  |  |  |  |  OverridingUnspecified[12:26-12:26]
+|  |  |  |  |  |f_subp_spec:
+|  |  |  |  |  |  SubpSpec[14:4-14:31]
+|  |  |  |  |  |  |f_subp_kind:
+|  |  |  |  |  |  |  SubpKindProcedure[14:4-14:13]
+|  |  |  |  |  |  |f_subp_name:
+|  |  |  |  |  |  |  DefiningName[14:14-14:31]
+|  |  |  |  |  |  |  |f_name:
+|  |  |  |  |  |  |  |  Id[14:14-14:31]: Accept_2_Callstmt
+|  |  |  |  |  |  |f_subp_params: <null>
+|  |  |  |  |  |  |f_subp_returns: <null>
+|  |  |  |  |  |f_aspects: <null>
+|  |  |  |  |  |f_decls:
+|  |  |  |  |  |  DeclarativePart[15:6-16:4]
+|  |  |  |  |  |  |f_decls:
+|  |  |  |  |  |  |  AdaNodeList[15:6-15:6]: <empty list>
+|  |  |  |  |  |f_stmts:
+|  |  |  |  |  |  HandledStmts[16:9-18:4]
+|  |  |  |  |  |  |f_stmts:
+|  |  |  |  |  |  |  StmtList[17:7-17:12]
+|  |  |  |  |  |  |  |  NullStmt[17:7-17:12]
+|  |  |  |  |  |  |f_exceptions:
+|  |  |  |  |  |  |  AdaNodeList[17:11-17:11]: <empty list>
+|  |  |  |  |  |f_end_name:
+|  |  |  |  |  |  EndName[18:8-18:25]
+|  |  |  |  |  |  |f_name:
+|  |  |  |  |  |  |  Id[18:8-18:25]: Accept_2_Callstmt
+|  |  |  |  |  TaskBody[20:4-35:25]
+|  |  |  |  |  |f_name:
+|  |  |  |  |  |  DefiningName[20:14-20:30]
+|  |  |  |  |  |  |f_name:
+|  |  |  |  |  |  |  Id[20:14-20:30]: Task_Sample_Body
+|  |  |  |  |  |f_aspects: <null>
+|  |  |  |  |  |f_decls:
+|  |  |  |  |  |  DeclarativePart[21:6-22:4]
+|  |  |  |  |  |  |f_decls:
+|  |  |  |  |  |  |  AdaNodeList[21:6-21:6]: <empty list>
+|  |  |  |  |  |f_stmts:
+|  |  |  |  |  |  HandledStmts[22:9-35:4]
+|  |  |  |  |  |  |f_stmts:
+|  |  |  |  |  |  |  StmtList[23:7-34:16]
+|  |  |  |  |  |  |  |  LoopStmt[23:7-34:16]
+|  |  |  |  |  |  |  |  |f_spec: <null>
+|  |  |  |  |  |  |  |  |f_stmts:
+|  |  |  |  |  |  |  |  |  StmtList[24:10-33:21]
+|  |  |  |  |  |  |  |  |  |  SelectStmt[24:10-33:21]
+|  |  |  |  |  |  |  |  |  |  |f_guards:
+|  |  |  |  |  |  |  |  |  |  |  SelectWhenPartList[25:13-32:22]
+|  |  |  |  |  |  |  |  |  |  |  |  SelectWhenPart[25:13-27:26]
+|  |  |  |  |  |  |  |  |  |  |  |  |f_cond_expr: <null>
+|  |  |  |  |  |  |  |  |  |  |  |  |f_stmts:
+|  |  |  |  |  |  |  |  |  |  |  |  |  StmtList[25:13-27:26]
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  AcceptStmtWithStmts[25:13-27:26]
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |f_name:
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  Id[25:20-25:28]: Accept_1
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |f_entry_index_expr: <null>
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |f_params:
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  EntryCompletionFormalParams[25:28-25:28]
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |f_params: <null>
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |f_stmts:
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  HandledStmts[25:31-27:13]
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |f_stmts:
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  StmtList[26:16-26:34]
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  CallStmt[26:16-26:34]
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |f_call:
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  Id[26:16-26:33]: Accept_1_Callstmt
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |f_exceptions:
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  AdaNodeList[26:33-26:33]: <empty list>
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |f_end_name:
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  EndName[27:17-27:25]
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |f_name:
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  Id[27:17-27:25]: Accept_1
+|  |  |  |  |  |  |  |  |  |  |  |  SelectWhenPart[29:13-30:31]
+|  |  |  |  |  |  |  |  |  |  |  |  |f_cond_expr: <null>
+|  |  |  |  |  |  |  |  |  |  |  |  |f_stmts:
+|  |  |  |  |  |  |  |  |  |  |  |  |  StmtList[29:13-30:31]
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  AcceptStmt[29:13-29:29]
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |f_name:
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  Id[29:20-29:28]: Accept_2
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |f_entry_index_expr: <null>
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |f_params:
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  EntryCompletionFormalParams[29:28-29:28]
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |f_params: <null>
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  CallStmt[30:13-30:31]
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |f_call:
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  Id[30:13-30:30]: Accept_2_Callstmt
+|  |  |  |  |  |  |  |  |  |  |  |  SelectWhenPart[32:13-32:22]
+|  |  |  |  |  |  |  |  |  |  |  |  |f_cond_expr: <null>
+|  |  |  |  |  |  |  |  |  |  |  |  |f_stmts:
+|  |  |  |  |  |  |  |  |  |  |  |  |  StmtList[32:13-32:22]
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  DelayStmt[32:13-32:22]
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |f_has_until:
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  UntilAbsent[32:18-32:18]
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |f_expr:
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  Int[32:19-32:21]: 10
+|  |  |  |  |  |  |  |  |  |  |f_else_stmts:
+|  |  |  |  |  |  |  |  |  |  |  StmtList[32:21-32:21]: <empty list>
+|  |  |  |  |  |  |  |  |  |  |f_abort_stmts:
+|  |  |  |  |  |  |  |  |  |  |  StmtList[32:21-32:21]: <empty list>
+|  |  |  |  |  |  |  |  |f_end_name: <null>
+|  |  |  |  |  |  |f_exceptions:
+|  |  |  |  |  |  |  AdaNodeList[34:15-34:15]: <empty list>
+|  |  |  |  |  |f_end_name:
+|  |  |  |  |  |  EndName[35:8-35:24]
+|  |  |  |  |  |  |f_name:
+|  |  |  |  |  |  |  Id[35:8-35:24]: Task_Sample_Body
+|  |  |  |  |  SubpBody[37:4-41:25]
+|  |  |  |  |  |f_overriding:
+|  |  |  |  |  |  OverridingUnspecified[35:25-35:25]
+|  |  |  |  |  |f_subp_spec:
+|  |  |  |  |  |  SubpSpec[37:4-37:30]
+|  |  |  |  |  |  |f_subp_kind:
+|  |  |  |  |  |  |  SubpKindProcedure[37:4-37:13]
+|  |  |  |  |  |  |f_subp_name:
+|  |  |  |  |  |  |  DefiningName[37:14-37:30]
+|  |  |  |  |  |  |  |f_name:
+|  |  |  |  |  |  |  |  Id[37:14-37:30]: Task_Sample_Subp
+|  |  |  |  |  |  |f_subp_params: <null>
+|  |  |  |  |  |  |f_subp_returns: <null>
+|  |  |  |  |  |f_aspects: <null>
+|  |  |  |  |  |f_decls:
+|  |  |  |  |  |  DeclarativePart[38:6-39:4]
+|  |  |  |  |  |  |f_decls:
+|  |  |  |  |  |  |  AdaNodeList[38:6-38:6]: <empty list>
+|  |  |  |  |  |f_stmts:
+|  |  |  |  |  |  HandledStmts[39:9-41:4]
+|  |  |  |  |  |  |f_stmts:
+|  |  |  |  |  |  |  StmtList[40:7-40:33]
+|  |  |  |  |  |  |  |  CallStmt[40:7-40:33]
+|  |  |  |  |  |  |  |  |f_call:
+|  |  |  |  |  |  |  |  |  DottedName[40:7-40:32]
+|  |  |  |  |  |  |  |  |  |f_prefix:
+|  |  |  |  |  |  |  |  |  |  Id[40:7-40:23]: Task_Sample_Body
+|  |  |  |  |  |  |  |  |  |f_suffix:
+|  |  |  |  |  |  |  |  |  |  Id[40:24-40:32]: Accept_1
+|  |  |  |  |  |  |f_exceptions:
+|  |  |  |  |  |  |  AdaNodeList[40:32-40:32]: <empty list>
+|  |  |  |  |  |f_end_name:
+|  |  |  |  |  |  EndName[41:8-41:24]
+|  |  |  |  |  |  |f_name:
+|  |  |  |  |  |  |  Id[41:8-41:24]: Task_Sample_Subp
+|  |  |f_stmts: <null>
+|  |  |f_end_name:
+|  |  |  EndName[43:5-43:16]
+|  |  |  |f_name:
+|  |  |  |  Id[43:5-43:16]: Task_Sample
+|f_pragmas:
+|  PragmaNodeList[43:17-43:17]: <empty list>

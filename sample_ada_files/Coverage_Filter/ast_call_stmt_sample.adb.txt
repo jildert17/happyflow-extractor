@@ -1,0 +1,117 @@
+CompilationUnit[1:1-16:22]
+|f_prelude:
+|  AdaNodeList[1:1-1:1]: <empty list>
+|f_body:
+|  LibraryItem[1:1-16:22]
+|  |f_has_private:
+|  |  PrivateAbsent[1:1-1:1]
+|  |f_item:
+|  |  PackageBody[1:1-16:22]
+|  |  |f_package_name:
+|  |  |  DefiningName[1:14-1:30]
+|  |  |  |f_name:
+|  |  |  |  Id[1:14-1:30]: Call_Stmt_Sample
+|  |  |f_aspects: <null>
+|  |  |f_decls:
+|  |  |  DeclarativePart[1:33-16:1]
+|  |  |  |f_decls:
+|  |  |  |  AdaNodeList[3:4-14:15]
+|  |  |  |  |  SubpBody[3:4-7:15]
+|  |  |  |  |  |f_overriding:
+|  |  |  |  |  |  OverridingUnspecified[1:33-1:33]
+|  |  |  |  |  |f_subp_spec:
+|  |  |  |  |  |  SubpSpec[3:4-3:34]
+|  |  |  |  |  |  |f_subp_kind:
+|  |  |  |  |  |  |  SubpKindFunction[3:4-3:12]
+|  |  |  |  |  |  |f_subp_name:
+|  |  |  |  |  |  |  DefiningName[3:13-3:19]
+|  |  |  |  |  |  |  |f_name:
+|  |  |  |  |  |  |  |  Id[3:13-3:19]: Callee
+|  |  |  |  |  |  |f_subp_params: <null>
+|  |  |  |  |  |  |f_subp_returns:
+|  |  |  |  |  |  |  SubtypeIndication[3:27-3:34]
+|  |  |  |  |  |  |  |f_has_not_null:
+|  |  |  |  |  |  |  |  NotNullAbsent[3:26-3:26]
+|  |  |  |  |  |  |  |f_name:
+|  |  |  |  |  |  |  |  Id[3:27-3:34]: Boolean
+|  |  |  |  |  |  |  |f_constraint: <null>
+|  |  |  |  |  |f_aspects: <null>
+|  |  |  |  |  |f_decls:
+|  |  |  |  |  |  DeclarativePart[4:6-5:4]
+|  |  |  |  |  |  |f_decls:
+|  |  |  |  |  |  |  AdaNodeList[4:6-4:6]: <empty list>
+|  |  |  |  |  |f_stmts:
+|  |  |  |  |  |  HandledStmts[5:9-7:4]
+|  |  |  |  |  |  |f_stmts:
+|  |  |  |  |  |  |  StmtList[6:7-6:19]
+|  |  |  |  |  |  |  |  ReturnStmt[6:7-6:19]
+|  |  |  |  |  |  |  |  |f_return_expr:
+|  |  |  |  |  |  |  |  |  Id[6:14-6:18]: True
+|  |  |  |  |  |  |f_exceptions:
+|  |  |  |  |  |  |  AdaNodeList[6:18-6:18]: <empty list>
+|  |  |  |  |  |f_end_name:
+|  |  |  |  |  |  EndName[7:8-7:14]
+|  |  |  |  |  |  |f_name:
+|  |  |  |  |  |  |  Id[7:8-7:14]: Callee
+|  |  |  |  |  SubpBody[9:4-14:15]
+|  |  |  |  |  |f_overriding:
+|  |  |  |  |  |  OverridingUnspecified[7:15-7:15]
+|  |  |  |  |  |f_subp_spec:
+|  |  |  |  |  |  SubpSpec[9:4-9:20]
+|  |  |  |  |  |  |f_subp_kind:
+|  |  |  |  |  |  |  SubpKindProcedure[9:4-9:13]
+|  |  |  |  |  |  |f_subp_name:
+|  |  |  |  |  |  |  DefiningName[9:14-9:20]
+|  |  |  |  |  |  |  |f_name:
+|  |  |  |  |  |  |  |  Id[9:14-9:20]: Caller
+|  |  |  |  |  |  |f_subp_params: <null>
+|  |  |  |  |  |  |f_subp_returns: <null>
+|  |  |  |  |  |f_aspects: <null>
+|  |  |  |  |  |f_decls:
+|  |  |  |  |  |  DeclarativePart[10:6-12:4]
+|  |  |  |  |  |  |f_decls:
+|  |  |  |  |  |  |  AdaNodeList[11:7-11:21]
+|  |  |  |  |  |  |  |  ObjectDecl[11:7-11:21]
+|  |  |  |  |  |  |  |  |f_ids:
+|  |  |  |  |  |  |  |  |  DefiningNameList[11:7-11:10]
+|  |  |  |  |  |  |  |  |  |  DefiningName[11:7-11:10]
+|  |  |  |  |  |  |  |  |  |  |f_name:
+|  |  |  |  |  |  |  |  |  |  |  Id[11:7-11:10]: Foo
+|  |  |  |  |  |  |  |  |f_has_aliased:
+|  |  |  |  |  |  |  |  |  AliasedAbsent[11:12-11:12]
+|  |  |  |  |  |  |  |  |f_has_constant:
+|  |  |  |  |  |  |  |  |  ConstantAbsent[11:12-11:12]
+|  |  |  |  |  |  |  |  |f_mode:
+|  |  |  |  |  |  |  |  |  ModeDefault[11:12-11:12]
+|  |  |  |  |  |  |  |  |f_type_expr:
+|  |  |  |  |  |  |  |  |  SubtypeIndication[11:13-11:20]
+|  |  |  |  |  |  |  |  |  |f_has_not_null:
+|  |  |  |  |  |  |  |  |  |  NotNullAbsent[11:12-11:12]
+|  |  |  |  |  |  |  |  |  |f_name:
+|  |  |  |  |  |  |  |  |  |  Id[11:13-11:20]: Boolean
+|  |  |  |  |  |  |  |  |  |f_constraint: <null>
+|  |  |  |  |  |  |  |  |f_default_expr: <null>
+|  |  |  |  |  |  |  |  |f_renaming_clause: <null>
+|  |  |  |  |  |  |  |  |f_aspects: <null>
+|  |  |  |  |  |f_stmts:
+|  |  |  |  |  |  HandledStmts[12:9-14:4]
+|  |  |  |  |  |  |f_stmts:
+|  |  |  |  |  |  |  StmtList[13:7-13:21]
+|  |  |  |  |  |  |  |  AssignStmt[13:7-13:21]
+|  |  |  |  |  |  |  |  |f_dest:
+|  |  |  |  |  |  |  |  |  Id[13:7-13:10]: Foo
+|  |  |  |  |  |  |  |  |f_expr:
+|  |  |  |  |  |  |  |  |  Id[13:14-13:20]: Callee
+|  |  |  |  |  |  |f_exceptions:
+|  |  |  |  |  |  |  AdaNodeList[13:20-13:20]: <empty list>
+|  |  |  |  |  |f_end_name:
+|  |  |  |  |  |  EndName[14:8-14:14]
+|  |  |  |  |  |  |f_name:
+|  |  |  |  |  |  |  Id[14:8-14:14]: Caller
+|  |  |f_stmts: <null>
+|  |  |f_end_name:
+|  |  |  EndName[16:5-16:21]
+|  |  |  |f_name:
+|  |  |  |  Id[16:5-16:21]: Call_Stmt_Sample
+|f_pragmas:
+|  PragmaNodeList[16:22-16:22]: <empty list>
