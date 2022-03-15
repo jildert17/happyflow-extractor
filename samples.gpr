@@ -1,0 +1,9 @@
+with "C:\Projects\Trunk_r66796\Source\general_lib.gpr";
+with "C:\Projects\Trunk_r66796\Source\adat_lib.gpr";
+
+project Samples is
+
+    for Main use ("main.adb");
+    for Object_Dir use "obj";
+
+end Samples;
